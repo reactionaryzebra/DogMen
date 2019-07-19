@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>You found a new dog! Can you tell me about it?</h1>
+    <form action="/dogs" method="POST">
+      <label>Name: </label>
+      <input type="text" name="name" />
+      <label>Paws:</label>
+      <input type="number" name="paws" />
+      <label>Color:</label>
+      <input type="text" name="color" />
+      <label>Breed:</label>
+      <input type="text" name="breed" />
+      <label>Favorite Toys:</label>
+      <input type="text" name="favoriteToys" />
+      <label>Is the dog fixed?</label>
+      <input type="checkbox" name="isFixed" />
+      <label>Is the dog good?</label>
+      <input type="checkbox" name="isGood" />
+      <input type="submit" value="Submit"/>
+    </form>
+  </body>
+</html>
